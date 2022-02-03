@@ -14,4 +14,4 @@ def test_hello(client):
     The /hello endpoint should just return the text "Hello, World!"
     """
     response = client.get('/hello')
-    assert response.data == b'Hello, world!'
+    assert response.data == b'Hello, World!'
